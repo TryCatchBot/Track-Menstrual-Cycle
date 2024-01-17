@@ -74,3 +74,29 @@
 		</div>
 		</div>
 	</div>
+
+
+	 <h2>Health Benefits</h2>
+          <ul>
+            <li>Improved reproductive health</li>
+            <li>Increased awareness of fertility</li>
+            <li>Effective family planning</li>
+            <li>Early detection of potential health issues</li>
+            {/* Add more benefits as needed */}
+          </ul>
+
+
+		  Join the fight against  period stigma and period poverty 
+
+		  Join Us In The Fight To #EndPeriodPoverty
+
+
+
+
+
+
+
+competitors
+		  https://www.instagram.com/yadahsbox/?hl=en 
+		  https://emmanuelosemotafoundation.org/sanitary-pad-donate/
+		  https://tampax.com/en-us/period-tracker/

@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import IndexPage from "./components/IndexPage";
-import CycleOverview from "./components/CycleOverview";
-import MenstruationWindow from "./components/MenstruationWindow";
-import OvulationWindow from "./components/OvulationWindow";
-import EditPeriod from "./components/EditPeriod";
+import IndexPage from "./components/pages/IndexPage";
+import CycleOverviewPage from "./components/pages/CycleOverviewPage";
+import MenstruationWindowPage from "./components/pages/MenstruationWindowPage";
+import OvulationWindowPage from "./components/pages/OvulationWindowPage";
+import EditPeriodPage from "./components/pages/EditPeriodPage";
+import WhenStrualDryPage from "./components/pages/WhenStrualDryPage";
 
 const App = () => {
   const [userData, setUserData] = useState({ userName: "", userDob: "" });
@@ -24,17 +25,18 @@ const App = () => {
           />
           <Route
             path="/cycle-overview"
-            element={<CycleOverview userData={userData} />}
+            element={<CycleOverviewPage userData={userData} />}
           />
           <Route
             path="/menstruation-window"
-            element={<MenstruationWindow userData={userData} />}
+            element={<MenstruationWindowPage userData={userData} />}
           />
           <Route
             path="/ovulation-window"
-            element={<OvulationWindow userData={userData} />}
+            element={<OvulationWindowPage userData={userData} />}
           />
-          <Route path="/edit-period" element={<EditPeriod />} />
+          <Route path="/edit-period" element={<EditPeriodPage />} />
+          <Route path="/whenStrual-dry" element={<WhenStrualDryPage/>} />
         </Routes>
       </Router>
     </ChakraProvider>

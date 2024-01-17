@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "../components/styles/modal.css";
-import Button from "./Global/Button";
+import "../../../components/styles/modal.css";
+import Button from "../global/Button";
 import { IoClose } from "react-icons/io5";
 import { Input, InputGroup, InputLeftAddon } from "@chakra-ui/react";
 
