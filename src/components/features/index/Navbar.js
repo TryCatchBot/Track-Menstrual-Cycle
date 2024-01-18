@@ -42,7 +42,7 @@ const NavLink = (props) => {
 };
 
 const Navbar = ({ onTrackPeriodClick }) => {
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { colorMode, toggleColorMode } = useColorMode(); 
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
