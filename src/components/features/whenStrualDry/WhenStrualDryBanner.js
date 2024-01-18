@@ -7,17 +7,15 @@ import {
   Text,
   Button,
   Stack,
-  Icon,
-  useColorModeValue,
   createIcon,
 } from "@chakra-ui/react";
 
 const WhenStrualDryBanner = ({ onTrackPeriodClick }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const handleTrackPeriodClick = () => {
-    setIsModalOpen(true);
-  };
+  // const handleTrackPeriodClick = () => {
+  //   setIsModalOpen(true);
+  // };
 
   const handleCloseModal = () => {
     setIsModalOpen(false);
@@ -50,20 +48,6 @@ const WhenStrualDryBanner = ({ onTrackPeriodClick }) => {
             </Text>
           </Heading>
           <Text color={"gray.500"} mt={-10}>
-            {/* 🌸 Understanding your menstrual cycle has numerous health benefits.✨ <br />🌼
-Track your cycle to improve overall health and well-being. 🌺 */}
-            {/* 🌱 Upon the onset of menstruation for a girl in Nigeria, it
-            signifies not only a biological transition but frequently initiates
-            a sorrowful transformation in her life. Girls experiencing
-            menstruation in Nigeria encounter cultural stigmatization and
-            societal discrimination, setting off a chain reaction in their
-            lives.🌷 🍃 Aside stigma; it also means that numerous Nigerian girls
-            lack access to menstrual products, compelling them to refrain from
-            attending school and stay at home.🌸 🌿 WhenStrual Dry represents an
-            initiative aimed at ensuring that Nigerian schoolgirls can readily
-            obtain menstrual products such as sanitary pads. This ensures that
-            they can confidently and comfortably attend school without
-            experiencing shame. 🌺 */}
             🌸 Join the fight against period stigma and poverty! 🌿 Donate now
             to break the silence, empower lives, ensure health, foster
             education, and create lasting change. Form partnerships for a
@@ -84,35 +68,10 @@ Track your cycle to improve overall health and well-being. 🌺 */}
               _hover={{
                 bg: "#DA70D6",
               }}
-              onClick={handleTrackPeriodClick}
+              // onClick={handleTrackPeriodClick}
             >
               Donate Today
             </Button>
-            {/* <Button variant={'link'} colorScheme={'blue'} size={'sm'}>
-              Learn more
-            </Button> */}
-            {/* <Box>
-              <Icon
-                as={Arrow}
-                color={useColorModeValue("gray.800", "gray.300")}
-                w={71}
-                position={"absolute"}
-                right={-71}
-                top={"10px"}
-              />
-              <Text
-                fontSize={"lg"}
-                fontFamily={"Caveat"}
-                position={"absolute"}
-                right={"-125px"}
-                top={"-15px"}
-                transform={"rotate(10deg)"}
-                as="i"
-                color="teal"
-              >
-                Free forever
-              </Text>
-            </Box> */}
           </Stack>
         </Stack>
       </Container>
